@@ -1,0 +1,7 @@
+#Criar as tabelas USUARIOS e LIVROS e ESTADOS (ESTADOS)
+use BDII182_BIBLIOTECA;
+create table ESTADOS(
+SIGLA_ESTADO varchar (2) not NULL,
+NOME_ESTADO varchar (25) not null,
+PRIMARY KEY(SIGLA_ESTADO));
+
